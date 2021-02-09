@@ -11,3 +11,44 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.cable{
+    background-color: black;
+    width: 8px;
+    height: 25px;
+    margin-left: 48px;
+}
+.semaforo{
+    background-color: black;
+    width: 75px;
+    height: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+    padding: 4px;
+
+}
+.amarillo{
+    background-color: yellow;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+.green{
+    background-color: green;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 100%;
+    margin-top: 3px;
+}
+.rojo{
+    background-color: red;
+    width: 45px;
+    height: 45px;
+    margin: auto;
+    border-radius: 100%;
+}
+.selected{
+    box-shadow: #fbffcc 0px 0px 50px 20px;
+}
